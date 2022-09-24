@@ -14,6 +14,7 @@ public class StudentConfig {
     @Bean
     CommandLineRunner commandLineRunner(StudentRepository repository){
         return args -> {
+            /*
             Student joao = new Student(
 						"João Victor",
 						"jv.moraiscb@gmail.com",
@@ -26,6 +27,7 @@ public class StudentConfig {
                         );
 
             repository.saveAll(List.of(joao, talles));
+            */
         };
     }
 }
